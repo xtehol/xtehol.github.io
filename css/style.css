@@ -2,10 +2,15 @@
     box-sizing: border-box;    
 }
 
+
+a:hover {
+    color: red;
+}
 body {
     padding: 10px;
     background: #f1f1f1;
-    margin: 0px 300px;
+    margin: auto;
+    max-width: 1000px;
 }
 /*Navbar start*/
 ul.topnav {
@@ -16,7 +21,7 @@ ul.topnav {
     background-color: #333;
     top: 0;
     width: 100%;
-    position: fixed;
+    position: sticky;
 }
 
 ul.topnav li {
@@ -56,12 +61,23 @@ ul.topnav li a:hover:not(.active) {
     display: table;
     clear: both;
 }
-
+div.card i, div.card p i{
+    display: inline;
+    vertical-align: middle;
+}
+div.card i:after {
+    content: "  ";
+}
+/*
 .fakeimg {
     background-color: #aaa;
     width: 100%;
     padding: 20px;
     height: 200px;
+}
+*/
+div.profile img {
+    width: 100%;
 }
 
 .card {
@@ -70,20 +86,39 @@ ul.topnav li a:hover:not(.active) {
     margin-top: 20px;
 }
 
+
+/*
+@media screen and (max-width: 1200px) {
+    .body {
+        padding: 10px;
+        background: #ff0000;
+        margin: 0px 0px;
+    }
+}
+*/
 @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {
         width: 100%;
         padding: 0px;
     }
+    body {
+        margin: 0;
+    }
 }
 /**/
-@media screen and  (max-width: 400px) {
+@media screen and (max-width: 400px) {
     ul.topnav li {
         float: none;
         width: 100%;
     }
     ul.topnav {
         position: static;
+    }
+    body {
+        margin: 0;
+    }
+    div.profile img {
+        display: none; 
     }
 
 }

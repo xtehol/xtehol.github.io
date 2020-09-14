@@ -18,84 +18,106 @@
         QAAAAAAARARAAAAAAABEBEAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAD//wAA//8AAP//AAD//wAA//8AALYDAAC2AwAAtgMAALYDAAC2AwAAgAM
         AAP//AAD//wAA//8AAP//AAD//wAA" rel="icon" type="image/x-icon" />
-        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
 
     <body>
         <!--Navbar-->
         <ul class="topnav">
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="about">About</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a class="active" href="./">Home</a></li>
+            <li><a href="#projects" onclick="pageUnderConstruction()">Projects</a></li>
         </ul>
+        <!--Navbar end-->
+
         <!--Content-->
         <div class="row">
             <div class="leftcolumn">
                 <div class="card">
                     <h2>About Me</h2>
+                    <!--
                     <div class="fakeimg">Image</div>
-                    <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                -->
+                    <div class="profile">
+                        <img src="image/profile_photo.jpg" alt="profile photo">
+                    </div>
+                    <p>Hi, I'm Michael! I am a passionate and hard-working recent computer science graduate looking for a career in entry-level front-end/back-end developer.</p>
                     <br>
                     <br>
                     <h3>Skills</h3>
                     <p>HTML</p>
                     <p>CSS</p>
-                    <p>JS</p>
-                    <p>Photoshop</p>
+                    <p>JavaScript</p>
                     <p>C/C++</p>
+                    <p>Photoshop</p>
+                    <p>Software lifecycle</p>
+                    <p>Agile</p>
+                </div>
+                <div class="card">
+                    <i class="material-icons">email</i><a href="mailto:sun.m710@gmail.com" target="_blank">sun.m710@gmail.com</a><br>
+                    <i class="material-icons">cloud</i><a href="https://github.com/xtehol" target="_blank">https://github.com/xtehol</a><br>
+                    <i class="material-icons">save</i><a href="./download/Resume_MichaelSun.pdf" download>download resume</a>          
                 </div>
             </div>
             <div class="rightcolumn">
                 <div class="card">
                     <h2>Education</h2>
-                    <h3>Title</h3>
-                    <p>Aug 2017-May 2020</p>
-                    <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+
+                    <h3>South Dakota State University</h3>
+                    <p><i class="material-icons">access_time</i>Aug 2017-May 2020</p>
+                    <p>M.S. Computer Science</p>
+                    <p>GPA: 3.6/4.0</p>
+                    <p>Master’s Thesis: Sun, M. (2020). Semantic Segmentation Using Modified U-Net Architecture for Crack Detection (Accession No. 27961808) [Master's thesis, South Dakota State University]. ProQuest Dissertations Publishing.</p>
+                    <hr>
+
+                    <h3>University of Missouri, B.S. Architectural Studies</h3>
+                    <p><i class="material-icons">access_time</i>Aug 2010-May 2014</p>
+                    <p>GPA: 3.5/4.0</p>
+            
                 </div>
                 <div class="card">
                     <h2>Work Experience</h2>
-                    <h3>Title</h3>
-                    <p>Aug 2017-May 2020</p>
-                    <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                    <h3>Research Assistant – South Dakota State University</h3>
+                    <p><i class="material-icons">access_time</i>Dec 2019-Feb 2020</p>
+                    <p>Developed and researched deep learning in computer vision using Keras, Python, Linux, and Google Colab. Applied the knowledge to write a master’s thesis paper that enhanced semantic segmentation, U-Net, to increase detection accuracy in finding tiny concrete crack on bridges.</p>
+                    <hr>
+
+                    <h3>Teaching Assistant - South Dakota State University</h3>
+                    <p><i class="material-icons">access_time</i>Jan 2018-Jan 2019</p>
+                    <p>Taught computer science first-year students 12 hr/week during walk-in office hours. The topic included basic C/C++, data structure, and grading programming language assignments for a C++ class.</p>
+            
                 </div>
                 <div class="card">
                     <h2>Academic Experience</h2>
-                    <h3>Title</h3>
-                    <p>Aug 2017-May 2020</p>
-                    <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                    <h3>Software Engineering Management</h3>
+                    <p><i class="material-icons">access_time</i>Aug 2018-Dec 2018</p>
+                    <p>Worked in a team of three computer science students to build a website for a restaurant.</p>
+                    <p>Delivered software lifecycle deliverables using Agile. As the scrum master, conducted weekly meetings for the project updates and monitor milestone for each sprint.</p>
+                    <hr>
+
+                    <h3>Compiler Construction</h3>
+                    <p><i class="material-icons">access_time</i>Jan 2019-May 2019</p>
+                    <p>Built an Oberon-0 compiler using C++, used LL grammar to construct a leftmost derivation and a hash function to generate a symbol table. The program takes an Oberon-0 file as input to create a Three Address Code and an 8086 assembly language.</p>
                 </div>
                 <div class="card">
                     <h2>Publication</h2>
-                    <h3>Title</h3>
-                    <p>Aug 2017-May 2020</p>
-                    <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                    <h3>The 15th Asia Pacific International Conference on Information Science and Technology.</h3>
+                    <p><i class="material-icons">access_time</i>July 2020</p>
+                    <p>“Sun, M., Won, K. (2020). Concrete Crack Detection Using A Modified U-Net Architecture. APIC-IST 2020.”</p>        
                 </div>
             </div>
         </div>
-<!--
-        <h1>Michael Sun's Portal</h1>
-        <h2>About Me</h2>
-        <p>I am a web developer.</p>
-        <p>I have a MS of computer science from the South Dakota State University, Brookings</p>
-        <p>I am currently doing freelance web site designing for the local community in Brookings, SD.</p>
-        <h2>Credentials and Portfolio</h2>
-        <p><a href="resume.html">My Resume</a> | <a href="https://github.com/xtehol" target="_blank">My GitHub</a></p>
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:sun.m710@gmail.com" t arget="_blank">sun.m710@gmail.com</a></p>
--->
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+        <!--Content end-->
         <script>
-
+            function pageUnderConstruction() {
+                alert("\nCOMING SOON..")
+            }
         </script>
     </body>
 
     <!--FOOTER-->
     <footer>
         <hr>
-        <code>Copyright (c) 2020 Michael Sun</code>
+        <code>Copyright &copy 2020 Michael Sun</code>
     </footer>
+    <!--Footer end-->
 </html>
